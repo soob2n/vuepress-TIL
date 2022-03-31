@@ -69,15 +69,5 @@ module.exports = {
   plugins: [
     'reading-progress',
     '@vuepress/plugins-back-to-top',
-    'vuepress-plguin-smooth-scroll',
-    'vuepress-plugin-code-copy',
-      {
-        backgroundColor: '#42b883',
-        color: '#42b883',
-        backgroundTransition: true,
-        successText: 'copied!',
-        staticIcon: false,
-      },
-
   ]
 }
