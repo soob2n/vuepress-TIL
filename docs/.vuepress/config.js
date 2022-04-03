@@ -33,6 +33,21 @@ module.exports = {
       'meta',
       { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
     ],
+    [
+      'script',
+      {
+        async: true,
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-7DV784VD8H',
+        // GA에서 발급받은 코드
+      },
+    ],
+    [
+      'script',
+      {},
+      [
+        "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-7DV784VD8H');",
+      ],
+    ],
   ],
 
   /**
